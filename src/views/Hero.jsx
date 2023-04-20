@@ -90,8 +90,14 @@ const Hero = () => {
                             <FaMediumM />
                         </a>
                     </button>
+                    
                     <button className='hover:scale-110'>
-                        <a href="mailto:jimmyfisher@gmail.co" className="" rel="noopener noreferrer">
+                        <a href="https://linktr.ee/yourusername" className="" rel="noopener noreferrer">
+                            <SiLinktree />
+                        </a>
+                    </button>
+                        <button className='hover:scale-110'>
+                        <a href="mailto:jeremyfisherethereum@gmail.com" className="" rel="noopener noreferrer">
                             <MdEmail />
                         </a>
                     </button>
