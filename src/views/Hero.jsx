@@ -90,16 +90,17 @@ const Hero = () => {
                             <FaMediumM />
                         </a>
                     </button>
+<button className='hover:scale-110'>
+    <a href="https://linktr.ee/taleofmrjeremyfisher" className="" rel="noopener noreferrer">
+        <SiLinktree />
+    </a>
+</button>
                         <button className='hover:scale-110'>
                         <a href="mailto:jeremyfisherethereum@gmail.com" className="" rel="noopener noreferrer">
                             <MdEmail />
                         </a>
                     </button>
-                <button className='hover:scale-110'>
-    <a href="https://linktr.ee/yourusername" className="" rel="noopener noreferrer">
-        <SiLinktree />
-    </a>
-</button>
+                
                 </div>
 
             </div>
