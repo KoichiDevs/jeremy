@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import HeroCanvas from '../canvas/HeroCanvas'
 import { GiLilyPads } from 'react-icons/gi'
 import { motion } from 'framer-motion'
-import { FaTelegramPlane } from 'react-icons/fa'
-import { SiTwitter } from 'react-icons/si'
+import { FaTelegramPlane, FaMediumM } from 'react-icons/fa'
+import { SiTwitter, SiLinktree } from 'react-icons/si'
 import { MdEmail } from 'react-icons/md'
 import { BsClipboard, BsClipboard2CheckFill } from 'react-icons/bs'
 
@@ -90,13 +90,16 @@ const Hero = () => {
                             <FaMediumM />
                         </a>
                     </button>
-                    
-                   
                         <button className='hover:scale-110'>
                         <a href="mailto:jeremyfisherethereum@gmail.com" className="" rel="noopener noreferrer">
                             <MdEmail />
                         </a>
                     </button>
+                <button className='hover:scale-110'>
+    <a href="https://linktr.ee/yourusername" className="" rel="noopener noreferrer">
+        <SiLinktree />
+    </a>
+</button>
                 </div>
 
             </div>
