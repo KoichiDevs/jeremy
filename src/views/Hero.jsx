@@ -75,17 +75,21 @@ const Hero = () => {
 
                 <div className="soc absolute text-white text-2xl bottom-4 right-4 gap-x-5 flex pointer-events-auto">
                     <button className='hover:scale-110'>
-                        <a href="" className="" rel="noopener noreferrer">
+                        <a href="" className="https://t.me/taleofmrjeremyf" rel="noopener noreferrer">
                             <FaTelegramPlane />
                         </a>
                     </button>
 
                     <button className='hover:scale-110'>
-                        <a href="" className="" rel="noopener noreferrer">
+                        <a href="http://twitter.com/taleofjeremyf" className="" rel="noopener noreferrer">
                             <SiTwitter />
                         </a>
                     </button>
-
+                    <button className='hover:scale-110'>
+                        <a href="https://medium.com/@jeremyfishereth/the-tale-of-mr-jeremy-fisher-7130cab79b16" className="" rel="noopener noreferrer">
+                            <FaMediumM />
+                        </a>
+                    </button>
                     <button className='hover:scale-110'>
                         <a href="mailto:jimmyfisher@gmail.co" className="" rel="noopener noreferrer">
                             <MdEmail />
