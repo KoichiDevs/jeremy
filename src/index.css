@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Albertus';
+    src: url('../fonts/AlbertusNova.ttf');
+  }
+
+  @font-face {
+    font-family: 'Copper';
+    src: url('../fonts/CopperplateGothicLight.ttf');
+  }
+
+  .glow {
+    text-shadow: 0px 0px 25px #FFFFFF;
+  }
+}
