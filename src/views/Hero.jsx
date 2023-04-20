@@ -75,7 +75,7 @@ const Hero = () => {
 
                 <div className="soc absolute text-white text-2xl bottom-4 right-4 gap-x-5 flex pointer-events-auto">
                     <button className='hover:scale-110'>
-                        <a href="" className="https://t.me/taleofmrjeremyf" rel="noopener noreferrer">
+                        <a href="https://t.me/taleofmrjeremyf" className="" rel="noopener noreferrer">
                             <FaTelegramPlane />
                         </a>
                     </button>
