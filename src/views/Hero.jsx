@@ -10,7 +10,7 @@ import { BsClipboard, BsClipboard2CheckFill } from 'react-icons/bs'
 
 const Hero = () => {
 
-    const [contractAddress, setContract] = useState('0x00000000000000000000000000000')
+    const [contractAddress, setContract] = useState('0x39d17FAAEd0Ab8eE5Ca8ec0AF4523F522f5f3C90')
     const [debounce, setDebounce] = useState(false)
 
     const handleCopy = () => {
