@@ -56,13 +56,16 @@ const Hero = () => {
 
 
                     <motion.div initial={{ y: 150, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 3.5, delay: 1, ease: [0.16, 0.77, 0.47, .97] }} className="pointer-events-auto">
-                        <button className="flex 2xl:w-[18rem] 2xl:h-[3.5rem] md:w-[14rem] w-[12rem] relative h-[2.7rem] mx-auto mt-8 group ">
-                            <img src="/side.webp" alt="side" className="h-full" />
-                            <div className="w-full h-full border-t-[1px] boder-white border-b-[1px] flex items-center justify-center font-copper group-hover:bg-white/30 group-hover:font-bold transition-bg ease-in-out duration-100 2xl:text-xl">
-                                <h2>BUY TOKEN</h2>
-                            </div>
-                            <img src="/side.webp" alt="side" className="scale-x-[-1] h-full" />
-                        </button>
+                        <a href="https://app.uniswap.org/#/swap?outputCurrency=0x39d17FAAEd0Ab8eE5Ca8ec0AF4523F522f5f3C90">
+  <button className="flex 2xl:w-[18rem] 2xl:h-[3.5rem] md:w-[14rem] w-[12rem] relative h-[2.7rem] mx-auto mt-8 group ">
+    <img src="/side.webp" alt="side" className="h-full" />
+    <div className="w-full h-full border-t-[1px] boder-white border-b-[1px] flex items-center justify-center font-copper group-hover:bg-white/30 group-hover:font-bold transition-bg ease-in-out duration-100 2xl:text-xl">
+      <h2>BUY TOKEN</h2>
+    </div>
+    <img src="/side.webp" alt="side" className="scale-x-[-1] h-full" />
+  </button>
+</a>
+
                         <div className="flex items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer" onClick={handleCopy}>
                             {debounce ? <BsClipboard2CheckFill /> : <BsClipboard className='' />}
                         
